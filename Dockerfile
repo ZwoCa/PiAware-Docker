@@ -47,7 +47,7 @@ CMD  /root/startPiaware.sh
 # PiAware Skyview web page:
 EXPOSE 8080
 # OpenLayers web page:
-EXPOSE 8181
+EXPOSE 8081
 
 # for connections to other viewing tools, e.g. Virtual Radar:
 # non-MLAT data in Beast format:
