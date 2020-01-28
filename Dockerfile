@@ -2,8 +2,6 @@ FROM balenalib/armv7hf-debian:stretch
 
 LABEL description="stretch v1.1 deploy with --privileged"
 
-RUN [ "cross-build-start" ]
-
 ENV UDEV=1
 
 # Install packages
@@ -56,6 +54,3 @@ EXPOSE 8181
 EXPOSE 30005
 # MLAT data in Beast format:
 EXPOSE 30105
-
-RUN [ "cross-build-end" ]
-
