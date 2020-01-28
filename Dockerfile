@@ -7,9 +7,9 @@ ENV UDEV=1
 # Install packages
 RUN install_packages apt-utils wget git
 
-RUN wget -q http://flightaware.com/adsb/piaware/files/packages/pool/piaware/p/piaware-support/piaware-repository_3.7.1_all.deb
+RUN wget -q http://flightaware.com/adsb/piaware/files/packages/pool/piaware/p/piaware-support/piaware-repository_3.8.0_all.deb
 
-RUN dpkg -i piaware-repository_3.7.1_all.deb
+RUN dpkg -i piaware-repository_3.8.0_all.deb
 
 RUN install_packages piaware dump1090-fa 
 
