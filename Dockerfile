@@ -1,6 +1,6 @@
-FROM balenalib/armv7hf-debian:stretch
+FROM balenalib/rpi-debian:buster
 
-LABEL description="stretch v1.1 deploy with --privileged"
+LABEL description="debian buster for Raspberry Pi (Zero) deploy with --privileged"
 
 ENV UDEV=1
 
